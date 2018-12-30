@@ -25,5 +25,19 @@ class ViewController: UIViewController {
     @IBAction func thirdButtonTapped(_ sender: UIButton) {
         Alert.showTypeC(on: self)
     }
+    
+    @IBAction func fourthButtonTapped(_ sender: UIButton) {
+        Alert.showTypeD(on: self) {
+            print("completed")
+        }
+    }
+    
+    @IBAction func fifthButtonTapped(_ sender: UIButton) {
+        Alert.showTypeE(on: self, completion1: {
+            print("completion1")
+        }) {
+            print("completion2")
+        }
+    }
 }
 

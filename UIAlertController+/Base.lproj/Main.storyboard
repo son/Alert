@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="egl-b3-w0l">
-                                <rect key="frame" x="172.5" y="188.5" width="30" height="290"/>
+                                <rect key="frame" x="172.5" y="58.5" width="30" height="550"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9r8-GZ-U8n">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -40,6 +40,20 @@
                                         <state key="normal" title="3"/>
                                         <connections>
                                             <action selector="thirdButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VFG-xM-piN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY5-3q-bis">
+                                        <rect key="frame" x="0.0" y="390" width="30" height="30"/>
+                                        <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="fourthButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FSC-iQ-1EI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="El4-Si-ZdW">
+                                        <rect key="frame" x="0.0" y="520" width="30" height="30"/>
+                                        <state key="normal" title="5"/>
+                                        <connections>
+                                            <action selector="fifthButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3L-PT-AQb"/>
                                         </connections>
                                     </button>
                                 </subviews>
